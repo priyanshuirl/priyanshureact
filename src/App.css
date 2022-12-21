@@ -1,38 +1,121 @@
-.App {
+body {
+  font-family: sans-serif;
   text-align: center;
+  color: #747474;
+  padding: 20px;
+  box-sizing: border-box;
+  background: rgb(190, 226, 205);
+  background: linear-gradient(
+    90deg,
+    rgba(190, 226, 205, 1) 20%,
+    rgba(85, 202, 221, 1) 100%
+  );
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  margin: 0px;
+  padding: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading {
+  font-size: 50px;
+  margin-bottom: 0px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
+  width: 250px;
+  padding: 25px;
+  margin: 30px auto;
+  box-shadow: -1px 1px 11px 0px rgba(153, 153, 153, 1);
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.city_title {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: -50px;
+  margin-top: -10px;
+}
+
+.dots {
+  font-size: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: -40px;
+}
+
+.wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.icon {
+  width: 120px;
+}
+
+.icon_container {
+  background-color: #222;
+  width: min-content;
+  margin: auto;
+  aspect-ratio: 1/1;
+  border-radius: 100%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-bottom: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.thin_large {
+  font-size: 60px;
+  font-weight: 100;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.thin_small {
+  font-size: 40px;
+  font-weight: 100;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.desc {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.minmax_wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100px;
+}
+
+.loading {
+  margin: 200px auto;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing_message {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.city_input {
+  margin-top: 20px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 1px #747474 solid;
+  color: #747474;
+  font-weight: 500;
+  font-size: 16px;
 }

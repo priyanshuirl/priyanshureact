@@ -17,6 +17,10 @@ p {
   padding: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .heading {
   font-size: 50px;
   margin-bottom: 0px;

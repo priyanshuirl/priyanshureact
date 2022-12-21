@@ -34,7 +34,7 @@ export default function App() {
   return (
     <div className="App">
       <h1 class="heading">Weather in</h1>
-      <p>By Priyanshu Mishra</p>
+      <a href="https://priyanshumishra.netlify.app/"><p>By Priyanshu Mishra</p></a>
       <input
         onChange={handleChange}
         onKeyDown={handleEnter}
